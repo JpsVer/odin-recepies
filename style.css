@@ -1,6 +1,9 @@
-* {outline: 1px solid red;}
+* {box-sizing: border-box;
+margin: 0;}
 
-h1 {padding: auto; 
+h1 {padding: auto;
+    background-color: #9b2335;
+    color: beige;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
@@ -8,6 +11,16 @@ li {padding: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 h2 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-margin: 5px;}
+padding: 10px;}
 
-div {text-align: center;}
+/* I had trouble figuring out how to center my images and define a fixed width */
+
+div {text-align: center; 
+padding: 15px;
+}
+
+img {display: block;
+margin: auto;
+width: 750px;
+height: auto;
+}

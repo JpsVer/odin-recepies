@@ -7,11 +7,15 @@ h1 {padding: auto;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
-li {padding: 5px;
+li {padding: 0px;
+    margin: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 h2 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-padding: 10px;}
+margin: 15px;
+margin-left: 8px;
+border-bottom-style: dashed;
+border-bottom-color:#9b2335;}
 
 /* I had trouble figuring out how to center my images and define a fixed width */
 
@@ -24,3 +28,6 @@ margin: auto;
 width: 750px;
 height: auto;
 }
+
+.links {padding: 10px;
+font-size: large;}

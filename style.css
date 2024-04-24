@@ -1,7 +1,11 @@
 * {box-sizing: border-box;
 margin: 0;}
 
-h1 {padding: auto;
+.nav {display: flex;
+    gap: 5px;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
     background-color: #9b2335;
     color: beige;
     text-align: center;
@@ -19,7 +23,7 @@ border-bottom-color:#9b2335;}
 
 /* I had trouble figuring out how to center my images and define a fixed width */
 
-div {text-align: center; 
+.image {text-align: center; 
 padding: 15px;
 }
 
@@ -31,3 +35,20 @@ height: auto;
 
 .links {padding: 10px;
 font-size: large;}
+
+#insight {border-bottom: #9b2335 2px groove;
+margin-bottom: 0px;
+font-weight: 100;}
+
+/* Utilizing Flex */
+.tastes {display: flex;
+align-items: baseline;
+justify-content: space-evenly;}
+
+.history {flex: 1;
+text-align: justify;
+padding: 15px;}
+
+.title {text-align: center;
+flex-basis: 100%;}
+
